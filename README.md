@@ -1,46 +1,45 @@
-# Awesome-Restaurant-Workforce-Management
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Restaurant Workforce Management Banner" width="100%" />
+</p>
 
-## Top Restaurant Workforce Management Ecosystem
+# 🍽️ Awesome Restaurant Workforce Management 📋
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Restaurant-Workforce-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Restaurant-Workforce-Management?style=flat-square&logo=github&color=gold" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Restaurant-Workforce-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Restaurant-Workforce-Management?style=flat-square&logo=github&color=blue" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Restaurant-Workforce-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Restaurant-Workforce-Management?style=flat-square&color=red" alt="GitHub issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Restaurant-Workforce-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Employee Scheduling, Shift Management, Time & Attendance, Labor Forecasting, Tip Management & Hospitality Workforce Tools*  
+> A curated directory of premier **Restaurant Workforce Management (WFM)** SaaS platforms, shift scheduling software, and open-source GitHub projects. Designed for restaurant operators, managers, and hospitality leaders seeking tools for **employee shift scheduling**, **automated rotas**, **time & attendance tracking**, **labor cost forecasting**, **tip pooling & distribution**, and **frontline team communication**.
 
 **Last updated: September 2026**
 
+---
 
+### 🔍 Overview & Industry Focus
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Restaurant Workforce Management**. These systems help restaurants and hospitality operators create schedules, manage availability and shift swaps, track time and attendance, control labor costs, and communicate with hourly teams.
+This repository catalogs top-tier commercial **SaaS platforms** and notable **open-source repositories** purpose-built for **Restaurant & Hospitality Workforce Management**. Effective workforce management systems help independent restaurants, multi-unit franchises, bars, and ghost kitchens streamline hourly labor schedules, manage staff availability and shift trades, track digital punch-clocks, maintain labor-law compliance (such as Fair Workweek regulations), forecast labor spend against POS sales, and automate tip payouts.
 
+- **Market Leaders & Category Giants**: Leading enterprise and SMB platforms include **Fourth**, **HotSchedules**, **Deputy**, **Homebase**, **When I Work**, **7shifts**, **Harri**, **Planday**, **Sling**, **Push Operations**, and **ZoomShift**.
+- **Open-Source Landscape**: Mature restaurant WFM with native POS integrations, automated predictive scheduling, and tip compliance is largely commercial. However, robust open-source foundations exist across modular ERPs (Odoo, ERPNext), dedicated restaurant systems (TastyIgniter, URY), shift optimization frameworks (Timefold, OptaPlanner, OR-Tools), and standalone self-hosted scheduling utilities.
 
+---
 
-**Examples** include 7shifts, HotSchedules (Fourth), Deputy, When I Work, Planday, Homebase, Sling, Harri, Fourth, and ZoomShift (the category leaders).
+## 📑 Table of Contents
 
+- [🏢 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Additional Strong Open-Source Building Blocks](#️-additional-strong-open-source-building-blocks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#-disclaimer)
 
+---
 
-**Open-source emphasis**: Mature, restaurant-specific workforce management platforms with forecasting, compliance, tip tools, and deep POS integrations are predominantly commercial. Open-source activity includes shift-scheduling applications, restaurant ERP systems with basic staff features, and general employee-scheduling projects. This section lists every significant relevant project found.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS / Hosted Platforms
 
 > 📊 **Market Size & Industry Dynamics**: The global restaurant workforce management and employee scheduling software sector is valued at approximately **$6.8 Billion** (projected to expand past **$18.5 Billion** by 2033 at a **12.4% CAGR**). The sector is currently **moderately fragmented** and experiencing dynamic consolidation: rather than a single winner-take-all monopoly, specialized best-in-breed scheduling platforms (e.g., 7shifts, Deputy) compete and integrate alongside expanding mega-suites and POS ecosystems (e.g., Fourth, Toast).
 
@@ -60,7 +59,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 - **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
   Modular enterprise suite featuring official open-source modules for Point of Sale (POS), restaurant table layouts, shift planning, attendance punch tracking, and leave management.
@@ -116,74 +115,41 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - **[AIMMS Employee Scheduling](https://github.com/aimms/employee-scheduling)** [![GitHub stars](https://img.shields.io/github/stars/aimms/employee-scheduling?style=social&color=white)](https://github.com/aimms/employee-scheduling/stargazers)  
   Open mathematical optimization model focused on cost-effective staff placement across restaurant locations and skill requirements.
 
+---
 
+### 🛠️ Additional Strong Open-Source Building Blocks
 
-### Additional Strong Open-Source Options
-
-
-
-- **Calendar & availability libraries**: Open components for building custom availability and shift-swap interfaces.
-
-- **Notification & messaging**: Self-hosted chat or notification systems used to communicate schedules and shift offers.
-
-- **Time-clock integrations**: Open time-tracking or biometric projects that can feed hours into a scheduling system.
-
-- **Labor cost calculators**: Simple open tools or spreadsheets automated for forecasting and actual-vs-scheduled labor analysis.
-
-- **Mobile-friendly progressive web apps**: Community templates for employee-facing schedule views and shift claims.
-
-- Custom stacks combining an open scheduler (TimeTables or similar) with restaurant POS/ERP data and messaging.
-
-
-
-**Frameworks for building custom systems**:  
-
-There is no full-featured, production-ready open-source equivalent to 7shifts, HotSchedules, or Deputy.  
-
-Practical starting points include **TimeTables** and other shift-scheduling projects, restaurant-oriented systems such as **URY**, and the HR/attendance modules of **ERPNext** or **Odoo**.  
-
-These can be combined with messaging, time-clock, and reporting components for a basic self-hosted solution.  
-
-Commercial platforms (7shifts, HotSchedules/Fourth, Deputy, Homebase, Sling, When I Work, Planday, Harri, etc.) provide polished mobile apps, labor forecasting, compliance tools, tip management, and POS integrations that most open-source assemblies still lack.  
-
-Many independent restaurants start with free or low-cost commercial tools; larger groups typically standardize on purpose-built hospitality workforce platforms.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Workforce management systems handle employee personal data, working time, and sometimes payroll-related information. Labor-law compliance, data protection, and accurate record-keeping are the operator’s responsibility.
-
-- Open-source scheduling tools offer flexibility and no per-seat fees but require hosting, maintenance, and careful configuration for compliance. Evaluate total cost of ownership, reliability, and legal requirements carefully before production use.
-
-
+- 📅 **Calendar & Availability Libraries**: Open UI components (e.g. FullCalendar, react-big-calendar) for constructing responsive shift grids and employee swap boards.
+- 🔔 **Notification & Messaging Engines**: Self-hosted chat (e.g., Matrix, Rocket.Chat) and push webhook services for automated shift call-outs and schedule release notifications.
+- ⏱️ **Time-Clock & Kiosk Integrations**: Open-source punch-clock, RFID badge, and biometric hardware SDK integrations feeding actual hours into timesheets.
+- 📊 **Labor Cost Calculators & Forecasting Scripts**: Python/Pandas models predicting hourly labor demands from historical POS ticket volumes.
+- 📱 **Progressive Web App (PWA) Templates**: Mobile-first interfaces enabling front-of-house and back-of-house staff to view schedules and submit time-off requests.
 
 ---
 
+## 🤝 How to Contribute
 
+1. 🍴 Fork the repository.
+2. 📝 Add or update entries in `README.md` (maintain consistent tabular and star-sorted formatting).
+3. 🔍 Provide accurate details: platform/repo name, verified URL, clear description, exact pricing, and specific free tier/trial limits.
+4. 🚀 Submit a Pull Request (PR) with a brief summary of the addition.
 
-**Made for restaurant operators, multi-unit managers, HR/people teams in hospitality, and shift-based workforce leaders.**  
+⭐ **Star this repository** if you find it helpful for your restaurant, bar, hotel, or hospitality workforce tech stack!
 
-Let's expand open options for fair, efficient scheduling while recognizing the specialized value that mature commercial restaurant workforce platforms deliver.
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Restaurant-Workforce-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Restaurant-Workforce-Management&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- 📌 This is a **community-curated** list for educational and informational purposes — not an official endorsement.
+- 🔒 Workforce management platforms handle sensitive employee records, biometric punches, and payroll calculations. Compliance with Fair Workweek laws, local labor regulations, and data security standards remains the operator's responsibility.
+- ⚙️ Open-source alternatives offer zero seat fees and architectural ownership but necessitate server hosting, database maintenance, and security monitoring. Always evaluate total cost of ownership (TCO) before deployment.
+
+---
+
+**Made with ❤️ for restaurant operators, multi-unit managers, hospitality HR leaders, and shift-based workforce innovators.**

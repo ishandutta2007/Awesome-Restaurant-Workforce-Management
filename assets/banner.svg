@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <!-- Animated Mesh Gradient -->
+    <radialGradient id="glowAmber" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="glowEmerald" cx="80%" cy="70%" r="55%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Text Gradient with Dynamic Color Shift -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24">
+        <animate attributeName="stop-color" values="#fbbf24;#34d399;#60a5fa;#fbbf24" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#f59e0b">
+        <animate attributeName="stop-color" values="#f59e0b;#10b981;#3b82f6;#f59e0b" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#fb923c">
+        <animate attributeName="stop-color" values="#fb923c;#059669;#2563eb;#fb923c" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Shimmer Effect -->
+    <linearGradient id="shimmer" x1="-100%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+      <animate attributeName="x1" from="-100%" to="100%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="0%" to="200%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatCard1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes floatCard2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(8px); }
+    }
+    @keyframes liveBeacon {
+      0% { r: 5; opacity: 1; }
+      100% { r: 14; opacity: 0; }
+    }
+    .floating1 { animation: floatCard1 5s ease-in-out infinite; }
+    .floating2 { animation: floatCard2 6s ease-in-out infinite; }
+    .beacon { animation: liveBeacon 2s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="420" fill="url(#bgGradient)"/>
+
+  <!-- Glowing background orbs -->
+  <rect width="1200" height="420" fill="url(#glowAmber)"/>
+  <rect width="1200" height="420" fill="url(#glowEmerald)"/>
+  <rect width="1200" height="420" fill="url(#glowBlue)"/>
+
+  <!-- Architectural Background Grid -->
+  <g stroke="#334155" stroke-opacity="0.2" stroke-width="1">
+    <line x1="0" y1="70" x2="1200" y2="70"/>
+    <line x1="0" y1="140" x2="1200" y2="140"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="280" x2="1200" y2="280"/>
+    <line x1="0" y1="350" x2="1200" y2="350"/>
+    
+    <line x1="150" y1="0" x2="150" y2="420"/>
+    <line x1="300" y1="0" x2="300" y2="420"/>
+    <line x1="450" y1="0" x2="450" y2="420"/>
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="750" y1="0" x2="750" y2="420"/>
+    <line x1="900" y1="0" x2="900" y2="420"/>
+    <line x1="1050" y1="0" x2="1050" y2="420"/>
+  </g>
+
+  <!-- Left Shift Preview Card (Decorative) -->
+  <g class="floating1" transform="translate(60, 95)" filter="url(#shadow)">
+    <rect width="210" height="230" rx="14" fill="url(#cardBg)" stroke="#334155" stroke-width="1.2"/>
+    <rect width="210" height="230" rx="14" fill="url(#shimmer)"/>
+    <rect x="18" y="20" width="80" height="22" rx="6" fill="#f59e0b" fill-opacity="0.2"/>
+    <text x="58" y="35" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="11" font-weight="700" text-anchor="middle">FLOOR TEAM</text>
+    
+    <!-- Shift Slot 1 -->
+    <rect x="18" y="56" width="174" height="46" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="36" cy="79" r="10" fill="#3b82f6" fill-opacity="0.3"/>
+    <text x="36" y="83" fill="#60a5fa" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">🧑‍🍳</text>
+    <text x="54" y="74" fill="#f1f5f9" font-family="sans-serif" font-size="12" font-weight="600">Head Chef</text>
+    <text x="54" y="90" fill="#94a3b8" font-family="sans-serif" font-size="10">08:00 AM - 04:30 PM</text>
+
+    <!-- Shift Slot 2 -->
+    <rect x="18" y="110" width="174" height="46" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="36" cy="133" r="10" fill="#10b981" fill-opacity="0.3"/>
+    <text x="36" y="137" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">🍷</text>
+    <text x="54" y="128" fill="#f1f5f9" font-family="sans-serif" font-size="12" font-weight="600">Sommelier</text>
+    <text x="54" y="144" fill="#94a3b8" font-family="sans-serif" font-size="10">04:00 PM - 11:30 PM</text>
+
+    <!-- Shift Slot 3 -->
+    <rect x="18" y="164" width="174" height="46" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="36" cy="187" r="10" fill="#f59e0b" fill-opacity="0.3"/>
+    <text x="36" y="191" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">🛎️</text>
+    <text x="54" y="182" fill="#f1f5f9" font-family="sans-serif" font-size="12" font-weight="600">Shift Lead</text>
+    <text x="54" y="198" fill="#94a3b8" font-family="sans-serif" font-size="10">10:00 AM - 06:00 PM</text>
+  </g>
+
+  <!-- Right Labor Analytics Card (Decorative) -->
+  <g class="floating2" transform="translate(930, 95)" filter="url(#shadow)">
+    <rect width="210" height="230" rx="14" fill="url(#cardBg)" stroke="#334155" stroke-width="1.2"/>
+    <rect width="210" height="230" rx="14" fill="url(#shimmer)"/>
+    <rect x="18" y="20" width="95" height="22" rx="6" fill="#10b981" fill-opacity="0.2"/>
+    <text x="65" y="35" fill="#34d399" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="11" font-weight="700" text-anchor="middle">LABOR AI</text>
+
+    <text x="18" y="70" fill="#94a3b8" font-family="sans-serif" font-size="11">Sales-to-Labor Target</text>
+    <text x="18" y="98" fill="#38bdf8" font-family="sans-serif" font-size="24" font-weight="800">18.4%</text>
+    <text x="96" y="98" fill="#34d399" font-family="sans-serif" font-size="12" font-weight="700">↓ 3.2% vs avg</text>
+
+    <!-- Mini chart bars -->
+    <g transform="translate(18, 120)">
+      <rect x="0" y="50" width="18" height="30" rx="4" fill="#334155"/>
+      <rect x="26" y="35" width="18" height="45" rx="4" fill="#334155"/>
+      <rect x="52" y="20" width="18" height="60" rx="4" fill="#3b82f6"/>
+      <rect x="78" y="10" width="18" height="70" rx="4" fill="#10b981"/>
+      <rect x="104" y="28" width="18" height="52" rx="4" fill="#f59e0b"/>
+      <rect x="130" y="15" width="18" height="65" rx="4" fill="#10b981"/>
+      <rect x="156" y="5" width="18" height="75" rx="4" fill="#38bdf8"/>
+    </g>
+
+    <text x="18" y="215" fill="#64748b" font-family="sans-serif" font-size="10">✓ Real-time POS Forecast Sync</text>
+  </g>
+
+  <!-- Central Hero Content -->
+  <g transform="translate(600, 75)" text-anchor="middle">
+    <!-- Live Status Pill -->
+    <g transform="translate(0, 0)">
+      <rect x="-145" y="0" width="290" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="-115" cy="16" r="4.5" fill="#10b981"/>
+      <circle class="beacon" cx="-115" cy="16" r="5" stroke="#10b981" stroke-width="2" fill="none"/>
+      <text x="10" y="21" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="11.5" font-weight="700" letter-spacing="1">
+        HOSPITALITY WFM ECOSYSTEM
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="86" fill="url(#titleGrad)" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,sans-serif" font-size="38" font-weight="900" letter-spacing="-0.5">
+      Awesome Restaurant Workforce
+    </text>
+    <text x="0" y="132" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">
+      Management &amp; Shift Scheduling
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="174" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="500">
+      Curated Guide to Enterprise SaaS Platforms, AI Labor Forecasting &amp; Open-Source Shift Solvers
+    </text>
+
+    <!-- Feature Badges Row -->
+    <g transform="translate(0, 212)">
+      <g transform="translate(-230, 0)">
+        <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+        <text x="0" y="4" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="700">🕒 Shift Scheduling</text>
+      </g>
+      <g transform="translate(-75, 0)">
+        <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#0f172a" stroke="#34d399" stroke-width="1"/>
+        <text x="0" y="4" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="700">📈 Labor Control</text>
+      </g>
+      <g transform="translate(80, 0)">
+        <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#0f172a" stroke="#fbbf24" stroke-width="1"/>
+        <text x="0" y="4" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="700">💵 Tip Pooling</text>
+      </g>
+      <g transform="translate(235, 0)">
+        <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+        <text x="0" y="4" fill="#a78bfa" font-family="sans-serif" font-size="11" font-weight="700">⚡ Open Source</text>
+      </g>
+    </g>
+
+    <!-- Bottom Metrics Pill -->
+    <g transform="translate(0, 266)">
+      <text x="0" y="0" fill="#64748b" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="12" font-weight="600">
+        ⭐ Updated 2026 • 11 Leading SaaS Suites • 18 Open-Source Projects • Specific Pricing &amp; Limits Included
+      </text>
+    </g>
+  </g>
+</svg>
