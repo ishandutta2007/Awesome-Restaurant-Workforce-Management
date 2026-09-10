@@ -62,53 +62,59 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Open-Source GitHub Projects
 
+- **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+  Modular enterprise suite featuring official open-source modules for Point of Sale (POS), restaurant table layouts, shift planning, attendance punch tracking, and leave management.
 
+- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+  Comprehensive open-source ERP featuring complete human resources management, shift assignments, shift request workflows, attendance check-ins, payroll processing, and restaurant operation features.
 
-- **[TimeTables](https://github.com/dlsnyder8/TimeTables)**  
+- **[TastyIgniter](https://github.com/tastyigniter/TastyIgniter)** [![GitHub stars](https://img.shields.io/github/stars/tastyigniter/TastyIgniter?style=social&color=white)](https://github.com/tastyigniter/TastyIgniter/stargazers)  
+  Popular open-source restaurant management and online ordering platform with built-in staff role permissions, kitchen display workflows, table reservations, and extensible shift management.
 
+- **[Staffjoy v2](https://github.com/Staffjoy/v2)** [![GitHub stars](https://img.shields.io/github/stars/Staffjoy/v2?style=social&color=white)](https://github.com/Staffjoy/v2/stargazers)  
+  Open-source workforce scheduling suite built with Go, gRPC, React, and microservices architecture designed to automate scheduling, attendance, and worker communication.
+
+- **[TimeOff Management](https://github.com/timeoff-management/timeoff-management-application)** [![GitHub stars](https://img.shields.io/github/stars/timeoff-management/timeoff-management-application?style=social&color=white)](https://github.com/timeoff-management/timeoff-management-application/stargazers)  
+  Self-hosted employee absence and time-off management web application with team leave calendars, multi-department approval flows, and calendar sync (iCal, Google Calendar, Outlook).
+
+- **[Timefold Quickstarts](https://github.com/timefoldai/timefold-quickstarts)** [![GitHub stars](https://img.shields.io/github/stars/timefoldai/timefold-quickstarts?style=social&color=white)](https://github.com/timefoldai/timefold-quickstarts/stargazers)  
+  AI constraint solver implementing automated employee shift rostering and staff scheduling with availability rules, labor laws, and overtime optimization.
+
+- **[URY – Open Source Restaurant Management](https://github.com/ury-erp/ury)** [![GitHub stars](https://img.shields.io/github/stars/ury-erp/ury?style=social&color=white)](https://github.com/ury-erp/ury/stargazers)  
+  FOSS restaurant management system built on ERPNext, covering POS, kitchen display system (KDS), and operational workflows adaptable for restaurant staff and shift assignments.
+
+- **[RestaurantProject](https://github.com/BryanTheLai/RestaurantProject)** [![GitHub stars](https://img.shields.io/github/stars/BryanTheLai/RestaurantProject?style=social&color=white)](https://github.com/BryanTheLai/RestaurantProject/stargazers)  
+  C++ object-oriented restaurant management platform handling table management, employee staff schedules, and billing workflows.
+
+- **[OptaPlanner Quickstarts](https://github.com/kiegroup/optaplanner-quickstarts)** [![GitHub stars](https://img.shields.io/github/stars/kiegroup/optaplanner-quickstarts?style=social&color=white)](https://github.com/kiegroup/optaplanner-quickstarts/stargazers)  
+  Constraint satisfaction quickstarts for AI-driven employee rostering, shift rotation, and hospital/hospitality workforce management.
+
+- **[Shift Schedule (OR-Tools)](https://github.com/weiran-aitech/shift_schedule)** [![GitHub stars](https://img.shields.io/github/stars/weiran-aitech/shift_schedule?style=social&color=white)](https://github.com/weiran-aitech/shift_schedule/stargazers)  
+  Constraint programming model using Google OR-Tools for modeling and solving employee shift scheduling and rota generation.
+
+- **[Shift Scheduler](https://github.com/oasido/shift-scheduler)** [![GitHub stars](https://img.shields.io/github/stars/oasido/shift-scheduler?style=social&color=white)](https://github.com/oasido/shift-scheduler/stargazers)  
+  Web application for employee shift planning, absence tracking, and dynamic rota management for small-to-medium hourly teams.
+
+- **[D-Wave Employee Scheduling](https://github.com/dwave-examples/employee-scheduling)** [![GitHub stars](https://img.shields.io/github/stars/dwave-examples/employee-scheduling?style=social&color=white)](https://github.com/dwave-examples/employee-scheduling/stargazers)  
+  Quadratic unconstrained binary optimization (QUBO) model solving employee scheduling constraints and shift preferences.
+
+- **[TimeTables](https://github.com/dlsnyder8/TimeTables)** [![GitHub stars](https://img.shields.io/github/stars/dlsnyder8/TimeTables?style=social&color=white)](https://github.com/dlsnyder8/TimeTables/stargazers)  
   Open-source employee shift scheduling and management application with availability input, algorithmic schedule generation, group support, and notifications.
 
+- **[Restaurant Staff Scheduling Prototype](https://github.com/marcpage/scheduling)** [![GitHub stars](https://img.shields.io/github/stars/marcpage/scheduling?style=social&color=white)](https://github.com/marcpage/scheduling/stargazers)  
+  Restaurant staff scheduling prototype for availability collection, shift distribution, and manager–employee communication.
 
+- **[Workshift](https://github.com/saccofrancesco/workshift)** [![GitHub stars](https://img.shields.io/github/stars/saccofrancesco/workshift?style=social&color=white)](https://github.com/saccofrancesco/workshift/stargazers)  
+  Modern desktop application built with Tauri and Next.js for smart shift scheduling and real-time hourly workforce tracking.
 
-- **[URY – Open Source Restaurant Management](https://github.com/ury-erp/ury)**  
+- **[EmployeeScheduler](https://github.com/cadillaclizard/EmployeeScheduler)** [![GitHub stars](https://img.shields.io/github/stars/cadillaclizard/EmployeeScheduler?style=social&color=white)](https://github.com/cadillaclizard/EmployeeScheduler/stargazers)  
+  Community project implementing basic employee and restaurant shift scheduling interfaces.
 
-  FOSS restaurant management system built on ERPNext, covering POS, kitchen display, and operational features that can be extended for staff and shift-related workflows.
+- **[FrescoByMeobel](https://github.com/chocuuuu/FrescoByMeobel)** [![GitHub stars](https://img.shields.io/github/stars/chocuuuu/FrescoByMeobel?style=social&color=white)](https://github.com/chocuuuu/FrescoByMeobel/stargazers)  
+  Full-stack restaurant workforce management example integrating shift attendance, payroll computation, and weekly schedule coordination.
 
-
-
-- **[Restaurant staff scheduling prototypes](https://github.com/marcpage/scheduling)**  
-
-  Early open-source efforts specifically aimed at restaurant staff scheduling, availability collection, and manager–employee communication.
-
-
-
-- **[EmployeeScheduler and similar apps](https://github.com/cadillaclizard/EmployeeScheduler)**  
-
-  Community projects implementing basic employee and restaurant shift scheduling interfaces.
-
-
-
-- **[Payroll + attendance + schedule systems](https://github.com/chocuuuu/FrescoByMeobel)**  
-
-  Full-stack examples that combine attendance, payroll, and weekly schedule management—useful patterns for hospitality workforce tools.
-
-
-
-- **[Optimization models for employee scheduling](https://github.com/aimms/employee-scheduling)**  
-
-  Open optimization examples focused on cost-effective staff placement across restaurant locations and skill requirements.
-
-
-
-- **[Other shift & workforce scheduling projects](https://github.com/search?q=employee+scheduling+OR+shift+scheduling+OR+rota+open+source)**  
-
-  Additional community tools for rotas, availability, and basic workforce management.
-
-
-
-- **[ERPNext / Odoo HR & scheduling modules](https://github.com/frappe/erpnext)**  
-
-  Open-source ERPs whose HR, attendance, and shift modules are sometimes adapted for restaurant or hospitality scheduling needs.
+- **[AIMMS Employee Scheduling](https://github.com/aimms/employee-scheduling)** [![GitHub stars](https://img.shields.io/github/stars/aimms/employee-scheduling?style=social&color=white)](https://github.com/aimms/employee-scheduling/stargazers)  
+  Open mathematical optimization model focused on cost-effective staff placement across restaurant locations and skill requirements.
 
 
 
